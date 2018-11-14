@@ -1,0 +1,2 @@
+cd webpack-simple-master/my-project
+npm run dev
