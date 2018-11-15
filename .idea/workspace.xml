@@ -119,11 +119,6 @@
               <item name="testTask" type="b2602c69:ProjectViewProjectNode" />
               <item name="testTask" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="testTask" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testTask" type="462c0819:PsiDirectoryNode" />
-              <item name="webpack-simple-master" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -159,12 +154,12 @@
       <option name="presentableId" value="Default" />
       <updated>1542264730190</updated>
       <workItem from="1542264736884" duration="2668000" />
-      <workItem from="1542273591483" duration="3612000" />
+      <workItem from="1542273591483" duration="3864000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6280000" />
+    <option name="totallyTimeSpent" value="6532000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -190,7 +185,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32903227" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32903227" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.63709676" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
