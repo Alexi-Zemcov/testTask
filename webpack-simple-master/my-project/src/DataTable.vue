@@ -226,7 +226,7 @@
             snack: false,
             snackColor: '',
             snackText: '',
-            max7chars: v => v.length <= 7 || 'Не должно превыщать 7символов!',
+            max7chars: v => v.length <= 7 || 'Не должно превыщать 7 символов!',
             max3chars: v => v.length <= 3 || 'Не должно превыщать 3 символа!',
 
             //эти шли с шаблоном таблицы
@@ -373,22 +373,23 @@
             },
 
             //Изменяет подпись кнопки
-            chooseButtonName(inputValue, label_1, label_2) {
-                if (typeof inputValue === 'number') {
-                    if (inputValue <= 1) return label_1;
-                    if (inputValue > 1) return label_2;
+            chooseButtonName(inputValue, label1, label2) {
+                if (typeof inputValue !== 'number') {
+                    console.log(`Error input of the method "chooseButtonName"`);
+                    return null
                 }
+                return inputValue <=1 ? label1: label2;
             },
             makeDateFormatting(date) {
                 if ((!date) || (typeof date !== 'string')) {
                     return null
                 }
-                let arrDate = date.split('-');
+                const arrDate = date.split('-');
                 return `${arrDate[2]}.${arrDate[1]}.${arrDate[0]}`;
             },
             filterByName(items, search, filter) {
-                search = search.toString().toLowerCase();
-                return items.filter(row => filter(row["name"], search));
+                const searchFormatted = search.toString().toLowerCase();
+                return items.filter(row => filter(row["name"], searchFormatted));
             }
         }
     }
