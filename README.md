@@ -13,7 +13,7 @@ npm run dev
 # Description
 
 Компонент Vue.js для отображения должностей.
-![Иллюстрация к проекту](https://github.com/Alexi-Zemcov/testTask/photo_2020-07-18_10-30-10.jpg)
+![Иллюстрация к проекту](https://github.com/Alexi-Zemcov/testTask/raw/master/photo_2020-07-18_10-30-10.jpg)
 
 
 О поведении:
